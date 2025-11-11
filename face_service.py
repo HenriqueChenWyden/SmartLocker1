@@ -6,7 +6,7 @@ import cv2
 import tempfile
 from typing import Dict, List, Tuple
 from pathlib import Path
-from .storage import get_storage
+from storage import get_storage
 import threading
 
 IMG_SIZE = (100, 100)
