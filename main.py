@@ -3,7 +3,7 @@ import os
 from fastapi import FastAPI, File, UploadFile, HTTPException, Header
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from .face_service import save_user_image, train_all, recognize_image_bytes, list_users, delete_user, list_models, force_reload_cache
+from face_service import save_user_image, train_all, recognize_image_bytes, list_users, delete_user, list_models, force_reload_cache
 
 app = FastAPI(title="Face Locker API")
 
