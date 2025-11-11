@@ -1,9 +1,7 @@
 fastapi==0.95.2
 uvicorn[standard]==0.22.0
 python-multipart==0.0.6
-opencv-python-headless
-opencv-contrib-python==4.8.0.76
+opencv-contrib-python-headless==4.8.0.76
 numpy==1.26.2
 boto3==1.26.152
-opencv-contrib-python
 azure-storage-blob==12.19.1
